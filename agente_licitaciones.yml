@@ -23,7 +23,6 @@ jobs:
 
     - name: Ejecutar agente buscador
       env:
-        # Inyecta los secretos guardados en GitHub
         MERCADO_PUBLICO_TICKET: ${{ secrets.MERCADO_PUBLICO_TICKET }}
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
